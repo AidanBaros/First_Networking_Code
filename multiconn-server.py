@@ -3,6 +3,10 @@ import socket
 import selectors
 import types
 
+#  run command: 
+#  cd C:\Users\776638\Desktop\First_Networking_Code
+#  python multiconn-server.py 10.17.68.59 42069
+
 sel =  selectors.DefaultSelector()
 
 host, port = sys.argv[1], int(sys.argv[2])
